@@ -35,13 +35,12 @@ atexit.register(cleanup_on_exit)
 
 
 
-
+lock = threading.Lock()
 def run_scraper(source=None):
-    """Run the scraper for a specific source and update the cache"""
-    if articles_cache['in_progress']:
-        return
-    
-    articles_cache['in_progress'] = True
+    with lock:
+        if articles_cache['in_progress']:
+            return
+        articles_cache['in_progress'] = True
     try:
         scraper = NewsScraper()
         
@@ -70,7 +69,9 @@ def run_scraper(source=None):
     except Exception as e:
         print(f"Error running scraper: {e}")
     finally:
-        articles_cache['in_progress'] = False
+       
+         with lock:
+            articles_cache['in_progress'] = False
 
 @app.route('/')
 def index():
