@@ -62,12 +62,10 @@
                     {When refreshing or switching you might have to press it 2 or 3 times ,we are working on its fix and we apologise for this incovience}</p>
             </div>
             <div id="loading-bar" style="display: none; width: 100%; background-color: #f3f3f3;">
-                <div style="width: 0%; height: 4px; background-color: #007bff;" id="loading-progress"></div>
+                <div id="loading-progress" style="width: 0%; height: 4px; background-color: #007bff;"></div>
             </div>
-            <div id="loading-bar" style="display: none; margin: 20px; text-align: center;">
-                <div class="spinner-border text-primary" role="status">
-                    <span class="sr-only">Loading...</span>
-                </div>
+            
+           
                 <p>Updating articles, please wait...</p>
             </div>
             <div class="col-md-4 text-end">
@@ -148,10 +146,22 @@
     const articlesContainer = document.getElementById('articles-container');
     
     function refreshArticles(source) {
-        loadingSpinner.style.display = 'block';
-        refreshAllBtn.disabled = true;
-        refreshWiredBtn.disabled = true;
-        refreshTechcrunchBtn.disabled = true;
+    loadingSpinner.style.display = 'block';
+    loadingBar.style.display = 'block';
+    loadingProgress.style.width = '0%';
+    refreshAllBtn.disabled = true;
+    refreshWiredBtn.disabled = true;
+    refreshTechcrunchBtn.disabled = true;
+
+    let width = 0;
+    const progressInterval = setInterval(() => {
+        if (width >= 80) {
+            clearInterval(progressInterval);
+        } else {
+            width += 1;
+            loadingProgress.style.width = width + '%';
+        }
+    }, 25);
         
         // Update UI immediately
         if (source === 'all') {
