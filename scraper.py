@@ -9,9 +9,10 @@ import re
 from typing import List, Dict, Any, Optional
 from urllib.parse import urljoin, urlparse
 
+
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,  # or DEBUG if you want more details
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
