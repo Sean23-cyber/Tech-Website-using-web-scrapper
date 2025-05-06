@@ -1,0 +1,208 @@
+2025-05-03 20:32:25,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-03 20:32:25,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 20:32:25,666 - INFO -  * Restarting with stat
+2025-05-03 20:32:26,512 - WARNING -  * Debugger is active!
+2025-05-03 20:32:26,515 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 20:32:28,107 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:32:28,116 - INFO - 127.0.0.1 - - [03/May/2025 20:32:28] "GET / HTTP/1.1" 200 -
+2025-05-03 20:32:30,548 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:32:35,493 - INFO - 127.0.0.1 - - [03/May/2025 20:32:35] "[31m[1mPOST /api/refresh?source=techcrunch HTTP/1.1[0m" 415 -
+2025-05-03 20:32:37,502 - INFO - 127.0.0.1 - - [03/May/2025 20:32:37] "[31m[1mPOST /api/refresh?source=wired HTTP/1.1[0m" 415 -
+2025-05-03 20:32:40,194 - INFO - 127.0.0.1 - - [03/May/2025 20:32:40] "GET / HTTP/1.1" 200 -
+2025-05-03 20:32:44,822 - INFO - 127.0.0.1 - - [03/May/2025 20:32:44] "[31m[1mPOST /api/refresh?source=wired HTTP/1.1[0m" 415 -
+2025-05-03 20:32:48,081 - INFO - 127.0.0.1 - - [03/May/2025 20:32:48] "[31m[1mPOST /api/refresh?source=techcrunch HTTP/1.1[0m" 415 -
+2025-05-03 20:33:30,515 - INFO - 127.0.0.1 - - [03/May/2025 20:33:30] "[31m[1mPOST /api/refresh?source=wired HTTP/1.1[0m" 415 -
+2025-05-03 20:33:36,659 - INFO - 127.0.0.1 - - [03/May/2025 20:33:36] "[31m[1mPOST /api/refresh?source=all HTTP/1.1[0m" 415 -
+2025-05-03 20:33:39,928 - INFO - 127.0.0.1 - - [03/May/2025 20:33:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-03 20:39:17,776 - INFO -  * Detected change in 'C:\\Users\\aryan\\OneDrive\\Desktop\\scrapper_site\\app.py', reloading
+2025-05-03 20:39:17,876 - INFO -  * Restarting with stat
+2025-05-03 20:39:18,861 - WARNING -  * Debugger is active!
+2025-05-03 20:39:18,864 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 20:39:23,099 - INFO - 127.0.0.1 - - [03/May/2025 20:39:23] "GET / HTTP/1.1" 200 -
+2025-05-03 20:39:25,032 - INFO - 127.0.0.1 - - [03/May/2025 20:39:25] "[31m[1mPOST /api/refresh?source=wired HTTP/1.1[0m" 405 -
+2025-05-03 20:44:42,691 - INFO - 127.0.0.1 - - [03/May/2025 20:44:42] "GET / HTTP/1.1" 200 -
+2025-05-03 20:44:42,741 - INFO - 127.0.0.1 - - [03/May/2025 20:44:42] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:44,543 - INFO - Scraping Wired Tech...
+2025-05-03 20:44:44,543 - INFO - 127.0.0.1 - - [03/May/2025 20:44:44] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:44:45,356 - INFO - 127.0.0.1 - - [03/May/2025 20:44:45] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:44:46,119 - INFO - 127.0.0.1 - - [03/May/2025 20:44:46] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:44:46,557 - INFO - 127.0.0.1 - - [03/May/2025 20:44:46] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:44:46,566 - INFO - 127.0.0.1 - - [03/May/2025 20:44:46] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:47,017 - INFO - 127.0.0.1 - - [03/May/2025 20:44:47] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:44:47,362 - INFO - 127.0.0.1 - - [03/May/2025 20:44:47] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:47,560 - INFO - 127.0.0.1 - - [03/May/2025 20:44:47] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:44:48,139 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:44:48,140 - INFO - 127.0.0.1 - - [03/May/2025 20:44:48] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:48,336 - INFO - 127.0.0.1 - - [03/May/2025 20:44:48] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:44:48,573 - INFO - 127.0.0.1 - - [03/May/2025 20:44:48] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:49,039 - INFO - 127.0.0.1 - - [03/May/2025 20:44:49] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:49,569 - INFO - 127.0.0.1 - - [03/May/2025 20:44:49] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:50,349 - INFO - 127.0.0.1 - - [03/May/2025 20:44:50] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:51,376 - INFO - Scraping Wired Tech...
+2025-05-03 20:44:51,376 - INFO - 127.0.0.1 - - [03/May/2025 20:44:51] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:44:53,404 - INFO - 127.0.0.1 - - [03/May/2025 20:44:53] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:44:54,122 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:44:54,304 - INFO - 127.0.0.1 - - [03/May/2025 20:44:54] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:44:56,314 - INFO - 127.0.0.1 - - [03/May/2025 20:44:56] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:00,820 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:45:00,820 - INFO - 127.0.0.1 - - [03/May/2025 20:45:00] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:45:02,489 - INFO - 127.0.0.1 - - [03/May/2025 20:45:02] "GET /api/refresh?source=next HTTP/1.1" 200 -
+2025-05-03 20:45:02,843 - INFO - 127.0.0.1 - - [03/May/2025 20:45:02] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:03,664 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:45:04,128 - INFO - Scraping Wired Tech...
+2025-05-03 20:45:04,128 - INFO - 127.0.0.1 - - [03/May/2025 20:45:04] "GET /api/refresh?source=next HTTP/1.1" 200 -
+2025-05-03 20:45:04,508 - INFO - 127.0.0.1 - - [03/May/2025 20:45:04] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:06,145 - INFO - 127.0.0.1 - - [03/May/2025 20:45:06] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:06,341 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:45:06,419 - INFO - 127.0.0.1 - - [03/May/2025 20:45:06] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:45:08,455 - INFO - 127.0.0.1 - - [03/May/2025 20:45:08] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:08,493 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:45:08,493 - INFO - 127.0.0.1 - - [03/May/2025 20:45:08] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:45:10,516 - INFO - 127.0.0.1 - - [03/May/2025 20:45:10] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:11,099 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:45:14,576 - INFO - Scraping Wired Tech...
+2025-05-03 20:45:14,576 - INFO - 127.0.0.1 - - [03/May/2025 20:45:14] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:45:16,590 - INFO - 127.0.0.1 - - [03/May/2025 20:45:16] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:17,172 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:45:25,584 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:45:25,584 - INFO - 127.0.0.1 - - [03/May/2025 20:45:25] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:45:27,599 - INFO - 127.0.0.1 - - [03/May/2025 20:45:27] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:28,831 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:45:38,449 - INFO - Scraping Wired Tech...
+2025-05-03 20:45:38,449 - INFO - 127.0.0.1 - - [03/May/2025 20:45:38] "GET /api/refresh?source=next HTTP/1.1" 200 -
+2025-05-03 20:45:40,467 - INFO - 127.0.0.1 - - [03/May/2025 20:45:40] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:41,918 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:45:53,118 - INFO - Scraping Wired Tech...
+2025-05-03 20:45:53,119 - INFO - 127.0.0.1 - - [03/May/2025 20:45:53] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:45:55,137 - INFO - 127.0.0.1 - - [03/May/2025 20:45:55] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:45:56,212 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:45:58,459 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:45:58,459 - INFO - 127.0.0.1 - - [03/May/2025 20:45:58] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:00,477 - INFO - 127.0.0.1 - - [03/May/2025 20:46:00] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:01,240 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:46:05,128 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:46:05,128 - INFO - 127.0.0.1 - - [03/May/2025 20:46:05] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:07,142 - INFO - 127.0.0.1 - - [03/May/2025 20:46:07] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:07,326 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:46:08,926 - INFO - Scraping Wired Tech...
+2025-05-03 20:46:08,926 - INFO - 127.0.0.1 - - [03/May/2025 20:46:08] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:46:10,456 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:46:10,944 - INFO - 127.0.0.1 - - [03/May/2025 20:46:10] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:12,012 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:46:12,012 - INFO - 127.0.0.1 - - [03/May/2025 20:46:12] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:14,030 - INFO - 127.0.0.1 - - [03/May/2025 20:46:14] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:14,709 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:46:18,530 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:46:18,530 - INFO - 127.0.0.1 - - [03/May/2025 20:46:18] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:20,549 - INFO - 127.0.0.1 - - [03/May/2025 20:46:20] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:21,553 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:46:22,975 - INFO - 127.0.0.1 - - [03/May/2025 20:46:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-03 20:46:30,089 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:46:30,090 - INFO - 127.0.0.1 - - [03/May/2025 20:46:30] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:32,108 - INFO - 127.0.0.1 - - [03/May/2025 20:46:32] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:32,215 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:46:37,441 - INFO - Scraping Wired Tech...
+2025-05-03 20:46:37,441 - INFO - 127.0.0.1 - - [03/May/2025 20:46:37] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:46:39,457 - INFO - 127.0.0.1 - - [03/May/2025 20:46:39] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:40,799 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:46:47,638 - INFO - Scraping Wired Tech...
+2025-05-03 20:46:47,638 - INFO - 127.0.0.1 - - [03/May/2025 20:46:47] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:46:49,693 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:46:49,694 - INFO - 127.0.0.1 - - [03/May/2025 20:46:49] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:54,991 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:46:54,992 - INFO - 127.0.0.1 - - [03/May/2025 20:46:54] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:46:57,004 - INFO - 127.0.0.1 - - [03/May/2025 20:46:57] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:46:58,246 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:47:18,213 - INFO - Scraping TechCrunch AI...
+2025-05-03 20:47:18,214 - INFO - 127.0.0.1 - - [03/May/2025 20:47:18] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 20:47:20,208 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 20:47:20,268 - INFO - 127.0.0.1 - - [03/May/2025 20:47:20] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:47:22,266 - INFO - Scraping Wired Tech...
+2025-05-03 20:47:22,267 - INFO - 127.0.0.1 - - [03/May/2025 20:47:22] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:47:24,281 - INFO - 127.0.0.1 - - [03/May/2025 20:47:24] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 20:47:25,095 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:47:29,285 - INFO - Scraping Wired Tech...
+2025-05-03 20:47:29,285 - INFO - 127.0.0.1 - - [03/May/2025 20:47:29] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 20:47:30,933 - INFO - Found 514 potential articles on Wired
+2025-05-03 20:47:31,299 - INFO - 127.0.0.1 - - [03/May/2025 20:47:31] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:15:16,017 - INFO -  * Detected change in 'C:\\Users\\aryan\\OneDrive\\Desktop\\scrapper_site\\app.py', reloading
+2025-05-03 22:15:16,353 - INFO -  * Restarting with stat
+2025-05-03 22:15:20,779 - WARNING -  * Debugger is active!
+2025-05-03 22:15:20,786 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 22:15:53,008 - INFO -  * Detected change in 'C:\\Users\\aryan\\OneDrive\\Desktop\\scrapper_site\\app.py', reloading
+2025-05-03 22:15:53,224 - INFO -  * Restarting with stat
+2025-05-03 22:15:55,618 - WARNING -  * Debugger is active!
+2025-05-03 22:15:55,625 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 22:16:03,185 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:16:03,282 - INFO - 127.0.0.1 - - [03/May/2025 22:16:03] "GET / HTTP/1.1" 200 -
+2025-05-03 22:16:03,764 - INFO - 127.0.0.1 - - [03/May/2025 22:16:03] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:06,909 - INFO - 127.0.0.1 - - [03/May/2025 22:16:06] "GET / HTTP/1.1" 200 -
+2025-05-03 22:16:07,060 - INFO - 127.0.0.1 - - [03/May/2025 22:16:07] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:07,455 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:16:22,912 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-03 22:16:22,913 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 22:16:22,917 - INFO -  * Restarting with stat
+2025-05-03 22:16:24,997 - WARNING -  * Debugger is active!
+2025-05-03 22:16:25,003 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 22:16:26,338 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:16:26,354 - INFO - 127.0.0.1 - - [03/May/2025 22:16:26] "GET / HTTP/1.1" 200 -
+2025-05-03 22:16:26,478 - INFO - 127.0.0.1 - - [03/May/2025 22:16:26] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:28,944 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:16:29,856 - INFO - Scraping Wired Tech...
+2025-05-03 22:16:29,857 - INFO - 127.0.0.1 - - [03/May/2025 22:16:29] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 22:16:30,556 - INFO - 127.0.0.1 - - [03/May/2025 22:16:30] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:16:31,561 - INFO - 127.0.0.1 - - [03/May/2025 22:16:31] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 22:16:31,883 - INFO - 127.0.0.1 - - [03/May/2025 22:16:31] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:32,571 - INFO - 127.0.0.1 - - [03/May/2025 22:16:32] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:32,911 - INFO - Found 514 potential articles on Wired
+2025-05-03 22:16:33,573 - INFO - 127.0.0.1 - - [03/May/2025 22:16:33] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:35,707 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:16:35,708 - INFO - 127.0.0.1 - - [03/May/2025 22:16:35] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:16:37,738 - INFO - 127.0.0.1 - - [03/May/2025 22:16:37] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:38,730 - INFO - 127.0.0.1 - - [03/May/2025 22:16:38] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:16:39,247 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:16:39,456 - INFO - 127.0.0.1 - - [03/May/2025 22:16:39] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:16:40,746 - INFO - 127.0.0.1 - - [03/May/2025 22:16:40] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:41,482 - INFO - 127.0.0.1 - - [03/May/2025 22:16:41] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:42,498 - INFO - Scraping Wired Tech...
+2025-05-03 22:16:42,499 - INFO - 127.0.0.1 - - [03/May/2025 22:16:42] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 22:16:43,228 - INFO - 127.0.0.1 - - [03/May/2025 22:16:43] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 22:16:44,550 - INFO - Found 514 potential articles on Wired
+2025-05-03 22:16:44,552 - INFO - 127.0.0.1 - - [03/May/2025 22:16:44] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:16:45,241 - INFO - 127.0.0.1 - - [03/May/2025 22:16:45] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:18:52,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-03 22:18:52,259 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 22:18:52,263 - INFO -  * Restarting with stat
+2025-05-03 22:18:54,267 - WARNING -  * Debugger is active!
+2025-05-03 22:18:54,273 - INFO -  * Debugger PIN: 116-015-018
+2025-05-03 22:18:58,928 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:18:59,020 - INFO - 127.0.0.1 - - [03/May/2025 22:18:59] "GET / HTTP/1.1" 200 -
+2025-05-03 22:18:59,336 - INFO - 127.0.0.1 - - [03/May/2025 22:18:59] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:19:01,623 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:19:03,698 - INFO - Scraping Wired Tech...
+2025-05-03 22:19:03,699 - INFO - 127.0.0.1 - - [03/May/2025 22:19:03] "GET /api/refresh?source=next HTTP/1.1" 200 -
+2025-05-03 22:19:05,721 - INFO - 127.0.0.1 - - [03/May/2025 22:19:05] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:19:06,673 - INFO - Found 514 potential articles on Wired
+2025-05-03 22:21:34,464 - INFO - Scraping Wired Tech...
+2025-05-03 22:21:34,464 - INFO - 127.0.0.1 - - [03/May/2025 22:21:34] "GET /api/refresh?source=wired HTTP/1.1" 200 -
+2025-05-03 22:21:36,480 - INFO - 127.0.0.1 - - [03/May/2025 22:21:36] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:21:37,244 - INFO - Found 514 potential articles on Wired
+2025-05-03 22:21:38,080 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:21:38,081 - INFO - 127.0.0.1 - - [03/May/2025 22:21:38] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:21:40,140 - INFO - 127.0.0.1 - - [03/May/2025 22:21:40] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:21:40,259 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:21:49,165 - INFO - Scraping TechCrunch AI...
+2025-05-03 22:21:49,166 - INFO - 127.0.0.1 - - [03/May/2025 22:21:49] "GET /api/refresh?source=techcrunch HTTP/1.1" 200 -
+2025-05-03 22:21:51,181 - INFO - 127.0.0.1 - - [03/May/2025 22:21:51] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:21:51,433 - INFO - Found 40 potential articles on TechCrunch
+2025-05-03 22:24:27,876 - INFO - 127.0.0.1 - - [03/May/2025 22:24:27] "GET / HTTP/1.1" 200 -
+2025-05-03 22:24:27,988 - INFO - 127.0.0.1 - - [03/May/2025 22:24:27] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:24:44,064 - INFO - 127.0.0.1 - - [03/May/2025 22:24:44] "GET / HTTP/1.1" 200 -
+2025-05-03 22:24:44,181 - INFO - 127.0.0.1 - - [03/May/2025 22:24:44] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:24:59,624 - INFO - 127.0.0.1 - - [03/May/2025 22:24:59] "GET / HTTP/1.1" 200 -
+2025-05-03 22:24:59,744 - INFO - 127.0.0.1 - - [03/May/2025 22:24:59] "GET /api/articles HTTP/1.1" 200 -
+2025-05-03 22:25:55,278 - INFO - 127.0.0.1 - - [03/May/2025 22:25:55] "GET / HTTP/1.1" 200 -
+2025-05-03 22:25:55,385 - INFO - 127.0.0.1 - - [03/May/2025 22:25:55] "GET /api/articles HTTP/1.1" 200 -

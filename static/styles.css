@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+}
