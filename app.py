@@ -113,15 +113,15 @@ def refresh_articles():
         'source': source
     })
 
-if __name__ == '__main__':
+
     # Load any existing data
-    if os.path.exists('news_data.json'):
-        try:
-            with open('news_data.json', 'r', encoding='utf-8') as f:
-                articles_cache['data'] = json.load(f)
-                articles_cache['last_updated'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        except Exception as e:
-            print(f"Error loading cache: {e}")
+  if os.path.exists('news_data.json'):
+    try:
+        with open('news_data.json', 'r', encoding='utf-8') as f:
+            articles_cache['data'] = json.load(f)
+            articles_cache['last_updated'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    except Exception as e:
+        print(f"Error loading cache: {e}")
     
     app.run(debug=True)
 
