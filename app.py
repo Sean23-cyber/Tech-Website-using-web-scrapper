@@ -96,6 +96,10 @@ def get_articles():
 
 @app.route('/api/refresh', methods=['GET'])
 def refresh_articles():
+    if articles_cache['in_progress']:
+        return jsonify({'status': 'already_in_progress'})
+
+    source = request.args.get('source', 'next')
     # Get the source from query parameters
     source = request.args.get('source', 'next')
     
@@ -112,6 +116,15 @@ def refresh_articles():
     return jsonify({
         'status': 'refresh_started',
         'source': source
+    })
+
+
+@app.route('/api/status')
+def get_status():
+    return jsonify({
+        'in_progress':articles_cache['in_progress'],
+        'last_updated':articles_cache['last_ipdated'],
+        'current_source':articles_cache['current_source']
     })
 
 
